@@ -1,0 +1,54 @@
+#portfolio-page {
+  margin: 80px auto 0px auto;
+  width: 600px;
+}
+
+#portfolio-headers li {
+  margin: 80px 50px -3px 50px;
+  padding: 3px 20px;
+}
+
+#portfolio-headers li.inactive {
+  margin: 80px 53px -3px 53px;
+}
+
+.development-list {
+  max-height: 800px;
+}
+
+.music-list {
+  max-height: 800px;
+}
+
+.project-header {
+  margin-top: 30px;
+  font-size: 1.25em;
+  margin-bottom: 0px;
+  font-weight: bold;
+}
+
+.project-first-child {
+  font-size: 1em;
+}
+
+.project-second-child {
+  font-size: .85em;
+}
+
+.project-link {
+  color: #bfbfbf;
+}
+
+.project-link:hover {
+  color: #e6e6e6;
+}
+
+.music-paragraph {
+  font-size: 1em;
+}
+
+audio {
+  display: block;
+  width: 500px;
+  margin: 25px;
+}

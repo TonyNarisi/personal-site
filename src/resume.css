@@ -1,0 +1,88 @@
+#resume-div, #portfolio-div {
+  width: 100%;
+}
+
+#resume-headers, #portfolio-headers {
+  text-align: center;
+  margin-bottom: 0px;
+}
+
+#resume-headers li, #portfolio-headers li {
+  display: inline-block;
+  color: #ffffff;
+  background-color: #34472f;
+  font-size: 1em;
+  z-index: 1;
+}
+
+#resume-headers li {
+  margin: 70px 30px -3px 30px;
+  padding: 3px 20px;
+}
+
+#resume-headers li:hover, #portfolio-headers li:hover {
+  cursor: pointer;
+}
+
+#resume-headers li.active, #portfolio-headers li.active {
+  border-right: 3px solid #808080;
+  border-top: 3px solid #808080;
+  border-left: 3px solid #808080;
+  box-shadow: 0px -1px 2px #000000;
+}
+
+#resume-headers li.inactive {
+  margin: 70px 33px -3px 33px; 
+}
+
+.experience-list {
+  max-height: 1400px;
+}
+
+.skills-list {
+  max-height: 800px;
+}
+
+.education-list {
+  max-height: 800px;
+  padding-bottom: 100px;
+}
+
+.education-list.closed {
+  padding-bottom: 0px;
+}
+
+.resume-list, .portfolio-list {
+  font-family: 'Raleway', sans-serif;
+  border: 3px solid #808080;
+  box-shadow: 0px 0px 10px #000000;
+  padding: 50px 100px;
+  margin: 0px auto 50px auto;
+  width: 600px;
+  background-color: #34472f;
+  color: #ffffff;
+}
+
+.slider {
+  overflow-y: hidden;
+  transition-property: all;
+  transition-duration: .75s;
+}
+
+.resume-list div ul li ul li {
+  font-size: 1em;
+}
+
+.closed {
+  max-height: 0px;
+  border: none;
+}
+
+.no-bullet {
+  list-style-type: none;
+}
+
+.job-title, .school-title, .skill-category {
+  font-weight: bold;
+  font-size: 1.25em;
+}
