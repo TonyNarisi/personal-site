@@ -42,29 +42,42 @@ export default class Portfolio extends Component {
         <div className="portfolio-list">
           <div className={"development-list slider " + this.isOpen('Development and Design')} >
             <ul>
-              <li>
-                <a href="jamsessiondbc.herokuapp.com" className="project-link project-header">JamSession</a>
+              <li className="project-header">
+                <a href="jamsessiondbc.herokuapp.com" className="project-link">JamSession</a>
+              </li>
                 <ul>
                   <li className="project-first-child">
-                  Music collaboration and social media platform designed for connecting artists with other artists to create songs together
+                  Music collaboration and social media platform designed for connecting artists with other artists to create songs together</li>
                     <ul>
                       <li className="project-second-child">Also functions as a platform for these collaborations to be showcased and heard by fellow musicians</li>
                       <li className="project-second-child">Includes an in-browser rudimentary mixer on the song edit page, built from scratch using vanilla React.js and HTML5</li>
                     </ul>
-                  </li>
                   <li className="project-first-child">Build with a Ruby on Rails back-end and a React.js front-end, with the React-Ruby gem</li>
+                  <ul>
+                    <li className="project-second-child">View the source code on my <a href="https://github.com/TonyNarisi/music-collaboration-dynt" className="project-link">GitHub</a></li>
+                  </ul>
                 </ul>
+              <li className="project-header">
+                <a href="https://github.com/TonyNarisi/ParkFinder" className="project-link">ParkFinder</a>
               </li>
-              <li>
-                <p className="project-header">About This Site</p>
+                <ul>
+                  <li className="project-first-child">A mobile app designed to give people in cities easier access to the parks around them, within a walkable radius</li>
+                  <li className="project-first-child">Designed in one day with a team of three people for a hackathon at Dev Bootcamp</li>
+                  <li className="project-first-child">Built using React Native, using the React Native Navigator to allow the user to move between screens</li>
+                  <ul>
+                    <li className="project-second-child">Utilizes React Native's geolocation API along with the Google Places and Google Directions APIs to locate the user and find all nearby parks, along with walking directions to each park</li>
+                  </ul>
+                </ul>
+              <li className="project-header">About This Site</li>
                 <ul>
                   <li className="project-first-child">Built from scratch using React.js, HTML5, and CSS3</li>
                   <li className="project-first-child">Utilizes the React-Router library to create a smooth single-page experience</li>
                   <li className="project-first-child">Always evolving, allowing me a place to experiment with new techniques and design decisions</li>
+                  <ul>
+                    <li className="project-second-child">View the source code on my <a href="https://github.com/TonyNarisi/personal-site" className="project-link">GitHub</a></li>
+                  </ul>
                 </ul>
-              </li>
             </ul>
-            <p>For the source code of any of these projects, please check out my <a href="https://github.com/TonyNarisi" className="project-link">GitHub</a>!</p>
           </div>
           <div className={"music-list slider " + this.isOpen('Music')} >
             <p className="music-paragraph">In my spare time, when I'm not coding, one of my favorite hobbies is playing music and songwriting. When I write and record music, I find myself, for better or worse, trying to invoke certain moods more than create catchy melodies.</p>
