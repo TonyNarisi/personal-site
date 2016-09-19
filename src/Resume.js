@@ -84,7 +84,7 @@ export default class Resume extends Component {
                   <li className="no-bullet">September 2011 - May 2013</li>
                   <ul>
                     <li>Fostered the ability of students to generate well-written papers that clearly communicate their thoughts and arguments</li>
-                    <li>Worked with a group of freshmen students in individualized tutoring sessions for an entire semester</li>
+                    <li>Worked with a group of freshmen students in individualized tutoring sessions continuously for an entire semester</li>
                     <li>Consulted with faculty members in the English department regarding standards of writing</li>
                   </ul>
                 </ul>
