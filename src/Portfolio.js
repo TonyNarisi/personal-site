@@ -52,8 +52,9 @@ export default class Portfolio extends Component {
                       <li className="project-second-child">Also functions as a platform for these collaborations to be showcased and heard by fellow musicians</li>
                       <li className="project-second-child">Includes an in-browser rudimentary mixer on the song edit page, built from scratch using React.js and HTML5</li>
                     </ul>
-                  <li className="project-first-child">Build with a Ruby on Rails back-end and a React.js front-end, with the React-Ruby gem</li>
+                  <li className="project-first-child">Built with a Ruby on Rails back-end and a React.js front-end, with the React-Ruby gem</li>
                   <ul>
+                    <li className="project-second-child">Uses Amazon Web Service's S3 Storage for uploading and downloading image and audio files</li>
                     <li className="project-second-child">View the source code on my <a href="https://github.com/TonyNarisi/music-collaboration-dynt" className="project-link">GitHub</a></li>
                   </ul>
                 </ul>
