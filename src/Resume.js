@@ -116,6 +116,7 @@ export default class Resume extends Component {
                   <li>React Native</li>
                   <li>jQuery</li>
                   <li>Jasmine</li>
+                  <li>Python</li>
                   <li>SQL</li>
                   <li>CSS3</li>
                   <li>HTML5</li>
