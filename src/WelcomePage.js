@@ -11,8 +11,8 @@ export default class WelcomePage extends Component {
   }
 
   scrollToMiddle() {
-    var element = document.getElementById('welcome-page-intro');
-    Scroll.animateScroll.scrollTo(element.offsetHeight + 60);
+    var element = document.getElementById('welcome-image-holder');
+    Scroll.animateScroll.scrollTo(element.clientHeight - 20);
   }
 
   render() {
