@@ -43,7 +43,7 @@ export default class Portfolio extends Component {
           <div className={"development-list slider " + this.isOpen('Development and Design')} >
             <ul>
               <li className="project-header">
-                <a href="jamsessiondbc.herokuapp.com" className="project-link">JamSession</a>
+                <a href="http://jamsessiondbc.herokuapp.com" className="project-link">JamSession</a>
               </li>
                 <ul>
                   <li className="project-first-child">
