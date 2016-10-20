@@ -69,6 +69,16 @@ export default class Portfolio extends Component {
                     <li className="project-second-child">Uses React Native's geolocation API along with the Google Places and Google Directions APIs to locate the user, find nearby parks, and generate walking directions to each park</li>
                   </ul>
                 </ul>
+              <li className="project-header">
+                <a href="http://beat-the-box.herokuapp.com" className="project-link">Beat the Box</a>
+              </li>
+                <ul>
+                  <li className="project-first-child">A single-player card game, built using the React-Rails gem</li>
+                  <li className="project-first-child">Developed over a two-day period alone, and currently still in front-end design stages</li>
+                  <ul>
+                    <li className="project-second-child">View the source code for the project on my <a href="https://github.com/TonyNarisi/beat-the-box" className="project-link">GitHub</a></li>
+                  </ul>
+                </ul>
               <li className="project-header">About This Site</li>
                 <ul>
                   <li className="project-first-child">Built from scratch using React.js, HTML5, and CSS3</li>
